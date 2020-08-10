@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.backend.common.onlyIf
 
 plugins {
-    id("org.jetbrains.intellij") version "0.4.18"
+    id("org.jetbrains.intellij") version "0.4.21"
     kotlin("jvm") version "1.3.61"
 }
 
@@ -18,7 +18,7 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version = "2020.1"
+    version = "LATEST-EAP-SNAPSHOT"
 }
 tasks {
     compileKotlin {
